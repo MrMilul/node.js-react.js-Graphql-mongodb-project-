@@ -7,4 +7,4 @@ const LessonSchema = new Schema({
     teacherId: String
 })
 
-module.exports = mongoose.model("LessonList", LessonSchema)
+module.exports = mongoose.model("Lesson", LessonSchema)
